@@ -1,0 +1,9 @@
+<div class="overlay" (click)="cerrarModal()">
+    <div class="modal-content" (click)="$event.stopPropagation()">
+      <h2>Iniciar sesión</h2>
+      <p>¡Bienvenido! Por favor, ingresa tus credenciales.</p>
+      <input type="text" placeholder="Usuario" />
+      <input type="password" placeholder="Contraseña" />
+      <button (click)="cerrarModal()">Ingresar</button>
+    </div>
+  </div>

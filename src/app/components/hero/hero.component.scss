@@ -1,0 +1,44 @@
+section{
+    display: grid;
+    padding-top: 160px;
+}
+
+.hero-container{
+    grid-template-columns: 1fr 1fr;
+    background-color: white;
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    font-size: 56px;
+    font-family: sans-serif;
+    font-weight: normal;
+
+}
+
+p{
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-top:15px;
+    padding-bottom: 25px;
+    
+}
+
+a{
+    border: none;
+    background-color: #fdda24;
+    font-size: 18;
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+    border-radius: 30px;
+    padding: 11.2px 80px;
+    font-family: sans-serif ;
+    
+}

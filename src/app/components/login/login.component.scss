@@ -1,0 +1,100 @@
+
+.contenedor-ppal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fcfbfb; /* Fondo suave */
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card {
+    width: 400px;
+    height: 400px;
+    //height: 500px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    transition: transform 0.3s ease;
+    
+}
+
+.card h2 {
+    margin: 15px 0;
+    //font-size: 1.5em;
+    color:#fdda24;
+    font-size: 56px;
+    font-family: sans-serif;
+    font-weight: normal;
+} 
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+
+
+h2 {
+    margin-bottom: 10px;
+    
+}
+
+
+input[type="text"], input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    margin-top: 20px;
+
+}
+
+input:focus {
+    border-bottom: 2px solid #fdda24;
+}
+
+button {
+    background-color: #fdda24;
+    color: black;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 80%;
+    margin-top: 30px;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}
+
+.forgot{
+    margin-top: 30px;
+}
+
+.img-login{
+    width: 200px;
+    height: 100px;
+    
+}

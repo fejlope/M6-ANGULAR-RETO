@@ -1,0 +1,27 @@
+
+<form [formGroup]="loginForm" (ngSubmit)="submit()" >
+    <div class="contenedor-ppal">
+        <div class="card">
+            <h2><strong>¡Hola!</strong></h2>
+            <img class="img-login" src="assets/il-app-1.svg" >
+            <input type="text" name="username" placeholder="Ingresa tu usuario" required formControlName="username">
+            <input type="password" name="passwd" placeholder="Ingresa tu clave  " required formControlName="passwd">
+            <button type="submit">Ingresar</button>
+            <div class="forgot">
+                <a href="#" (click)="abrirModal($event)">olvidaste tu contraseña</a>
+                
+                <app-modal-login 
+                    *ngIf="mostrarModal" 
+                    (cerrar)="cerrarModal()">
+                </app-modal-login>
+
+
+            </div>
+        </div>
+        
+    </div>
+</form>
+
+
+
+
